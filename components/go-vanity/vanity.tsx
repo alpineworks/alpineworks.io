@@ -29,7 +29,7 @@ export default function VanityPage({
       clearInterval(interval);
       clearTimeout(timeout);
     };
-  }, [repoName, startTransition]);
+  }, [repoName, startTransition, timeoutTime]);
 
   return (
     <div>
