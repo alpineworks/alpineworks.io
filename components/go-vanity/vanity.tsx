@@ -21,7 +21,7 @@ export default function VanityPage({
 
     const timeout = setTimeout(() => {
       startTransition(() => {
-        redirect(`https://pkg.go.dev/alpineworks/${repoName}`);
+        redirect(`https://pkg.go.dev/alpineworks.io/${repoName}`);
       });
     }, timeoutTime * 1000);
 
