@@ -7,7 +7,7 @@ export default function VanityPage({
   redirectSeconds = 5,
 }: {
   repoName: string;
-  redirectSeconds: number;
+  redirectSeconds?: number;
 }) {
   const timeoutTime = redirectSeconds;
 
