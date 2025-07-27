@@ -1,3 +1,3 @@
-import { Major_Mono_Display } from "next/font/google";
+import { Gugi } from "next/font/google";
 
-export const majormonodisplay = Major_Mono_Display({ weight: "400", subsets: ["latin"]});
+export const gugi = Gugi({ weight: "400", subsets: ["latin"]});

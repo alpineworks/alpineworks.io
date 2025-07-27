@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { majormonodisplay } from "@/lib/fonts";
+import { gugi } from "@/lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${majormonodisplay.className}`}>{children}</body>
+      <body className={`${gugi.className}`}>{children}</body>
     </html>
   );
 }
